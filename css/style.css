@@ -121,7 +121,6 @@ body {
 .footer-social a {
     color: #fff;
     font-size: 18px;
-    text-align: ;
     padding: 0 15px;
 }
 
@@ -239,4 +238,39 @@ body {
     margin-top: 60px;
     text-align: center;
     display: none;
+}
+
+/* match schedule css */
+.country-flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.match-schedule-list {
+    border: 1px solid #E8E8E8;
+    padding: 30px;
+    border-radius: 10px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.match-schedule-list span {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 23px;
+}
+
+.schedule-text h3 {
+    font-size: 20px;
+    color: #161616;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.schedule-text p {
+    font-size: 16px;
+    color: #4D4D4D;
+    font-weight: 400;
+    margin-top: 8px;
 }

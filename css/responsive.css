@@ -1,5 +1,9 @@
 /* Normal desktop :992px. */
-@media (min-width: 992px) and (max-width: 1800px) {
+@media (min-width: 992px) and (max-width: 1400px) {
+    .container {
+        width: 1000px;
+    }
+
     .top-banner-text h2 {
         font-size: 50px;
         line-height: 70px;
@@ -8,6 +12,10 @@
     .banner-right-image img {
         width: 379px;
         height: 521px;
+    }
+
+    .match-right-side {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
