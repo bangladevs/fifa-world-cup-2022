@@ -1,0 +1,137 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1800px) {
+    .top-banner-text h2 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .banner-right-image img {
+        width: 379px;
+        height: 521px;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 900px;
+    }
+
+    .top-banner-text h2 {
+        font-size: 40px;
+        line-height: 55px;
+
+    }
+
+    .banner-right-image img {
+        width: 379px;
+        height: 521px;
+    }
+
+    .top-banner-text {
+        padding: 80px 0;
+    }
+
+    .match-wrapper {
+        flex-direction: column;
+    }
+
+    .match-right-side {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .match-left-side {
+        background-color: inherit;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        height: 80px;
+    }
+
+    .match-side-btn {
+        height: 55px;
+        width: 200px;
+        line-height: 55px;
+        border: 1px solid #ddd;
+    }
+
+    .footer-nav ul li a {
+        line-height: 40px;
+    }
+
+    .view-all-btn {
+        display: block;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .container {
+        width: 600px;
+    }
+
+    .top-banner-wrapper {
+        flex-direction: column;
+    }
+
+    .top-banner-text {
+        margin-right: 0;
+        padding-top: 70px;
+    }
+
+    .top-banner-text h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .banner-right-image img {
+        width: 300px;
+        height: 350px;
+    }
+
+    .top-banner-btn {
+        margin-bottom: 30px;
+    }
+
+    .match-wrapper {
+        flex-direction: column;
+    }
+
+    .match-right-side {
+        grid-template-columns: 1fr;
+    }
+
+    .match-left-side {
+        height: 200px;
+        margin-bottom: 50px;
+        background-color: inherit;
+    }
+
+    .match-side-btn {
+        height: 55px;
+        width: 200px;
+        line-height: 55px;
+        border: 1px solid #ddd;
+    }
+
+    .footer-nav ul li {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .footer-area {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .footer-social {
+        display: block;
+    }
+
+    .top-banner {
+        margin-bottom: 80px;
+    }
+}
